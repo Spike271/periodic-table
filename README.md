@@ -16,7 +16,9 @@ Just a simple periodic table made using Html, CSS and JS.
 
 <div align="center">
 
-<img src="preview.jpg" alt="Preview of a webpage" width="95%">
+<img src="preview_gif.gif" alt="Preview of a webpage in a gif format" width="95%">
+<img src="preview_01.jpg" alt="Preview of a webpage 01" width="95%">
+<img src="preview_02.jpg" alt="Preview of a webpage 02" width="95%">
 
 </div>
 
