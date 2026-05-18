@@ -1,26 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Periodic Table of Elements</title>
-        <link rel="icon" href="logo.png" type="image/x-icon" />
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <h1>Periodic Table of the Elements</h1>
-        <div class="grid" id="grid"></div>
-        <div class="legend" id="legend"></div>
-        <div class="modal" id="modal">
-            <div class="mcard" id="mcard">
-                <button class="xbtn" onclick="close_()">✕</button>
-                <div class="m-num" id="mn"></div>
-                <div class="m-sym" id="ms"></div>
-                <div class="m-name" id="mm"></div>
-                <div class="m-mass" id="mw"></div>
-                <div class="m-cat" id="mc"></div>
-            </div>
-        </div>
-        <script src="script.js"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive periodic table of all 118 chemical elements with atomic numbers, masses, and element categories including metals, nonmetals, and noble gases.">
+  <title>Periodic Table of the Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Periodic Table of the Elements</h1>
+  <main>
+    <div class="grid" id="grid"></div>
+    <div class="legend" id="legend"></div>
+  </main>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="ms">
+    <div class="mcard" id="mcard">
+      <button class="xbtn" onclick="close_()" aria-label="Close">✕</button>
+      <div class="m-num" id="mn"></div>
+      <div class="m-sym" id="ms"></div>
+      <div class="m-name" id="mm"></div>
+      <div class="m-mass" id="mw"></div>
+      <div class="m-cat" id="mc"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
